@@ -9,11 +9,15 @@
       <a class="brand" href="#">NG Decor</a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li><%= link_to "Browse Products" %></li>
+          <li><%= link_to  t("menu.products")  %></li>
           <li><%= link_to "Price List" %></li>
           <li><%= link_to "Contact Us" %></li>
           <li><%= link_to "Cart" %></li>
         </ul>
+      </div>
+      <div id="nav">
+        <%= link_to_unless_current "English", locale: "en" %>
+        <%= link_to_unless_current "Português", locale: "pt" %>
       </div>
     </div>
   </div>
