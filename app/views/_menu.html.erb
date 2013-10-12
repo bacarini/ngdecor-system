@@ -9,15 +9,23 @@
       <a class="brand" href="#">NG Decor</a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li><%= link_to  t("menu.products")  %></li>
-          <li><%= link_to "Price List" %></li>
-          <li><%= link_to "Contact Us" %></li>
-          <li><%= link_to "Cart" %></li>
+          <li class="menu-span"><%= link_to t("menu.products") %></li>
+          <li class="menu-span"><%= link_to t("menu.customers") %></li>
+          <li class="menu-span"><%= link_to t("menu.suppliers") %></li>
+          <li class="menu-span"><%= link_to t("menu.salesmen") %></li>
+          <li class="dropdown menu-span">
+          <a class="dropdown-toggle"  data-toggle="dropdown" href="#"><%= t("menu.users.user") %><b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+              <li><%= link_to t("menu.users.new"), new_user_path %></li>
+              <li><%= link_to t("menu.users.edit"), edit_user_registration_path %></li>
+          </ul>
+          </li>
+          <li class="menu-span"><%= link_to t("menu.sales") %></li>
         </ul>
       </div>
-      <div id="nav">
-        <%= link_to_unless_current "English", locale: "en" %>
-        <%= link_to_unless_current "Português", locale: "pt" %>
+      <div class="span1 offset1 language">
+        <%= link_to_unless_current image_tag("uk.png"), locale: "en" %>
+        <%= link_to_unless_current image_tag("br.png"), locale: "pt" %>
       </div>
     </div>
   </div>
