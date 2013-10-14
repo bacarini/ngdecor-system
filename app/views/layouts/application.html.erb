@@ -10,14 +10,17 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-
-  <%= render "/menu" %>
-  <div class="container">
+<body class="container">  
+  <header>
     <%= render "/login" %>
-    <%= render "/notice" %>
-    <%= yield %>
-  </div>
+    <%= render "/menu" %>
+  </header>
 
+  <section>
+    <div>
+      <%= render "/notice" %>
+    </div>
+    <%= yield %>
+  </section>
 </body>
 </html>
