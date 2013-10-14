@@ -1,7 +1,9 @@
 NgdecorSystem::Application.routes.draw do
-  scope "(:locale)", locale: "/#{I18n.available_locales.join("|")}/" do
+  LOCALES = /#{I18n.available_locales.join("|")}/
+  scope "(:locale)", locale: LOCALES do
     devise_for :users
     resources :users
-    root to: "users#index"
   end
+  get '/:locale' => 'users#index', locale: LOCALES
+  root "users#index"
 end
