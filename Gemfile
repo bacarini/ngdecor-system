@@ -20,6 +20,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem "pry-rails"
+  gem "pry"
+  gem "better_errors"
+  gem "simplecov-rcov"
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

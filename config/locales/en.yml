@@ -1,11 +1,14 @@
 en:
   menu:
     products: "Products"
-    customers: "Customers"
+    customers: 
+      title: "Customers"
+      new: "New customer"
+      edit: "Edit Customer"
     suppliers: "Suppliers"
     salesmen: "Sales Men"
     users: 
-     user: "Users"
-     new: "New user"
-     edit: "Edit user"
+      title: "Users"
+      new: "New user"
+      edit: "Edit user"
     sales: "Sales"

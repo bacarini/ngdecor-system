@@ -2,11 +2,14 @@
 pt:
   menu:
     products: "Produtos"
-    customers: "Clientes"
+    customers: 
+      title: "Clientes"
+      new: "Novo cliente"
+      edit: "Alterar cliente"
     suppliers: "Fornecedores"
     salesmen: "Vendedores"
     users: 
-      user: "Usuários"
+      title: "Usuários"
       new: "Novo usuário"
       edit: "Alterar usuário"
     sales: "Vendas"
