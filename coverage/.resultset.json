@@ -108,11 +108,11 @@
         null,
         1,
         1,
-        17,
+        18,
         null,
         null,
         1,
-        17,
+        18,
         null,
         null
       ],
@@ -122,23 +122,25 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        null,
         null,
         null,
         null,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
       "/home/bacarini/ngdecor-system/app/models/customer.rb": [
         1,
+        null,
+        1,
+        null,
+        1,
         null
       ]
     },
-    "timestamp": 1381949257
+    "timestamp": 1382021999
   }
 }

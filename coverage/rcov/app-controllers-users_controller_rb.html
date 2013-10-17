@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="app-controllers-users_controller_rb.html">app/controllers/users_controller.rb</a></td>
-            <td class='right_align'><tt>16</tt></td>
-            <td class='right_align'><tt>8</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>75.00%</tt></div>
+            <td class='right_align'><tt>14</tt></td>
+            <td class='right_align'><tt>5</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:75px"></div>
-        <div class="uncovered" style="width:25px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:50px"></div>
-        <div class="uncovered" style="width:50px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -65,43 +65,37 @@
         <tr class="marked">
           <td><pre><a name="line6">6</a>   def create</pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line7">7</a>     require &quot;pry&quot;</pre></td>
-        </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line8">8</a>     binding.pry</pre></td>
-        </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line9">9</a>     @user = User.new(email: params[:email],</pre></td>
+        <tr class="inferred">
+          <td><pre><a name="line7">7</a>   # @user = User.new(email: params[:email],</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line10">10</a>                      password: params[:password],</pre></td>
+          <td><pre><a name="line8">8</a>   #                  password: params[:password],</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line11">11</a>                      password_confirmation: params[:password])</pre></td>
+          <td><pre><a name="line9">9</a>   #                  password_confirmation: params[:password])</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line12">12</a>   end</pre></td>
+          <td><pre><a name="line10">10</a>   end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line13">13</a> </pre></td>
+          <td><pre><a name="line11">11</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line14">14</a>   def new</pre></td>
+          <td><pre><a name="line12">12</a>   def new</pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line15">15</a>     @user = User.new</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line16">16</a>   end</pre></td>
+        <tr class="marked">
+          <td><pre><a name="line13">13</a>     @user = User.new</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line17">17</a> end</pre></td>
+          <td><pre><a name="line14">14</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line15">15</a> end</pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2013-10-16 15:47:37 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2013-10-17 11:59:59 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

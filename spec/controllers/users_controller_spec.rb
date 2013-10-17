@@ -10,4 +10,10 @@ describe UsersController do
     end
   end
 
+  describe "GET new" do
+    it "assigns a new user as @user" do
+      get :new
+      assigns(:user).should be_a_new(User)
+    end
+  end
 end

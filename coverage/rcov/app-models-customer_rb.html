@@ -25,8 +25,8 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="app-models-customer_rb.html">app/models/customer.rb</a></td>
-            <td class='right_align'><tt>2</tt></td>
-            <td class='right_align'><tt>1</tt></td>
+            <td class='right_align'><tt>6</tt></td>
+            <td class='right_align'><tt>3</tt></td>
             <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
         <div class="covered" style="width:100px"></div>
@@ -54,12 +54,24 @@
           <td><pre><a name="line2">2</a> class Customer &lt; ActiveRecord::Base</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line3">3</a> end</pre></td>
+          <td><pre><a name="line3">3</a>   </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line4">4</a>   belongs_to :parent,    class_name: 'Customer', foreign_key: &quot;customer_id&quot;</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line5">5</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line6">6</a>     validates :name, :presence =&gt; true</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line7">7</a> end</pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2013-10-16 15:47:37 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2013-10-17 11:59:59 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>
