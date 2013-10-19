@@ -141,16 +141,16 @@
           <td><pre><a name="line31">31</a>       if @customer.save</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line32">32</a>         format.html { redirect_to @customer, notice: 'Customer was successfully created.' }</pre></td>
+          <td><pre><a name="line32">32</a>         format.html { redirect_to @customer, notice: &#39;Customer was successfully created.&#39; }</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line33">33</a>         format.json { render action: 'show', status: :created, location: @customer }</pre></td>
+          <td><pre><a name="line33">33</a>         format.json { render action: &#39;show&#39;, status: :created, location: @customer }</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line34">34</a>       else</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line35">35</a>         format.html { render action: 'new' }</pre></td>
+          <td><pre><a name="line35">35</a>         format.html { render action: &#39;new&#39; }</pre></td>
         </tr>
         <tr class="marked">
           <td><pre><a name="line36">36</a>         format.json { render json: @customer.errors, status: :unprocessable_entity }</pre></td>
@@ -183,7 +183,7 @@
           <td><pre><a name="line45">45</a>       if @customer.update(customer_params)</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line46">46</a>         format.html { redirect_to @customer, notice: 'Customer was successfully updated.' }</pre></td>
+          <td><pre><a name="line46">46</a>         format.html { redirect_to @customer, notice: &#39;Customer was successfully updated.&#39; }</pre></td>
         </tr>
         <tr class="marked">
           <td><pre><a name="line47">47</a>         format.json { head :no_content }</pre></td>
@@ -192,7 +192,7 @@
           <td><pre><a name="line48">48</a>       else</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line49">49</a>         format.html { render action: 'edit' }</pre></td>
+          <td><pre><a name="line49">49</a>         format.html { render action: &#39;edit&#39; }</pre></td>
         </tr>
         <tr class="marked">
           <td><pre><a name="line50">50</a>         format.json { render json: @customer.errors, status: :unprocessable_entity }</pre></td>
@@ -275,7 +275,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2013-10-17 15:50:18 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2013-10-19 14:12:03 -0300 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/bacarini/ngdecor-system/app/models/user.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/models/user.rb": [
         1,
         null,
         null,
@@ -9,19 +9,19 @@
         null,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/helpers/application_helper.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/helpers/customers_helper.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/helpers/customers_helper.rb": [
         1,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/helpers/user_helper.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/helpers/user_helper.rb": [
         1,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/controllers/customers_controller.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/controllers/customers_controller.rb": [
         1,
         1,
         null,
@@ -97,7 +97,7 @@
         null,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/controllers/application_controller.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -116,7 +116,7 @@
         null,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/controllers/users_controller.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -132,7 +132,7 @@
         null,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/models/customer.rb": [
+      "/home/bacarini/projects/ngdecor-system/app/models/customer.rb": [
         1,
         null,
         1,
@@ -141,6 +141,6 @@
         null
       ]
     },
-    "timestamp": 1382035818
+    "timestamp": 1382202723
   }
 }

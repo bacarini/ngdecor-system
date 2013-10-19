@@ -207,5 +207,9 @@ pt:
     errors:
       <<: *errors
   activerecord:
+    attributes:
+      _all:
+        created_at: "Data de criação"
+        updated_at: "Data de atualização"
     errors:
       <<: *errors
