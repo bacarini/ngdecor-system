@@ -1,4 +1,6 @@
 NgdecorSystem::Application.routes.draw do
+  resources :suppliers
+
   LOCALES = /#{I18n.available_locales.join("|")}/
 
   scope "(:locale)", locale: LOCALES do

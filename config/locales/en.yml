@@ -6,7 +6,10 @@ en:
       title: "Customers"
       new: "New customer"
       edit: "Edit Customer"
-    suppliers: "Suppliers"
+    suppliers: 
+      title: "Suppliers"
+      new: "New supplier"
+      edit: "Edit suppliers"
     salesmen: "Sales Men"
     users: 
       title: "Users"

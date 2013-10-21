@@ -10,15 +10,16 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="container">  
-  <header>
-    <%= render "/login" %>
-    <%= render "/menu" %>
-  </header>
+<body>  
+  <section class="container">
+    <header>
+      <%= render "/login" %>
+      <%= render "/menu" %>
+    </header>
 
-  <section>
     <%= render "/notice" %>
     <%= yield %>
+
   </section>
 </body>
 </html>
