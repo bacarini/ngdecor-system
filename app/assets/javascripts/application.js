@@ -18,6 +18,5 @@
 //= require_tree .
 
 $(function () {
-  debugger;
-    $(":file").filestyle({classButton: "btn btn btn-success", buttonText: t("select_file")});
+    $(":file").filestyle({classButton: "btn btn btn-success", buttonText: I18n.t("select_file")});
 });
