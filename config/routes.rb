@@ -8,6 +8,7 @@ NgdecorSystem::Application.routes.draw do
 
     resources :users
     resources :customers
+    resources :imports, only: [:new,:create]
   end
 
   get '/:locale' => 'users#index', locale: LOCALES

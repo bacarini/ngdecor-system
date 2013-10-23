@@ -1,5 +1,6 @@
 en:
   cancel: "Cancel"
+  select_file: "Select file"
   menu:
     products: "Products"
     customers: 
@@ -16,3 +17,4 @@ en:
       new: "New user"
       edit: "Edit user"
     sales: "Sales"
+    imports: "Import Files"

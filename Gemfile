@@ -4,7 +4,6 @@ gem 'rails', '4.0.0'
 gem 'rspec-rails'
 gem 'pg'
 gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'devise'
 gem "therubyracer"
@@ -15,6 +14,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.0.3'
 gem 'simple_form'
 gem 'roo'
+gem 'i18n-js'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

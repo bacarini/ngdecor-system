@@ -1,6 +1,7 @@
 #encoding: UTF-8 
 pt:
   cancel: "Cancelar"
+  select_file: "Selecione um arquivo"
   menu:
     products: "Produtos"
     customers: 
@@ -17,3 +18,4 @@ pt:
       new: "Novo usuário"
       edit: "Alterar usuário"
     sales: "Vendas"
+    imports: "Importar arquivos"

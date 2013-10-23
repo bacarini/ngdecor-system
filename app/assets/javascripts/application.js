@@ -13,5 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
+//= require i18n
+//= require i18n/translations
 //= require_tree .
+
+$(function () {
+  debugger;
+    $(":file").filestyle({classButton: "btn btn btn-success", buttonText: t("select_file")});
+});
