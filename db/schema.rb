@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131024173456) do
+ActiveRecord::Schema.define(version: 20131024175559) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -30,6 +30,9 @@ ActiveRecord::Schema.define(version: 20131024173456) do
     t.boolean  "architect",  default: false
   end
 
+  add_index "customers", ["architect"], name: "index_customers_on_architect", using: :btree
+  add_index "customers", ["name"], name: "index_customers_on_name", using: :btree
+
   create_table "products", force: true do |t|
     t.string   "name"
     t.string   "price"
@@ -40,6 +43,10 @@ ActiveRecord::Schema.define(version: 20131024173456) do
     t.datetime "updated_at"
   end
 
+  add_index "products", ["category_id"], name: "index_products_on_category_id", using: :btree
+  add_index "products", ["name"], name: "index_products_on_name", using: :btree
+  add_index "products", ["supplier_id"], name: "index_products_on_supplier_id", using: :btree
+
   create_table "suppliers", force: true do |t|
     t.string   "name"
     t.integer  "cnpj"
@@ -48,6 +55,8 @@ ActiveRecord::Schema.define(version: 20131024173456) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "suppliers", ["name"], name: "index_suppliers_on_name", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

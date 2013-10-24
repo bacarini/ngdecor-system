@@ -1,7 +1,7 @@
 require 'spec_helper'
 describe ProductsController do
   before { controller.stub(:authenticate_user!).and_return true }
-  let(:valid_attributes) { { "name" => "MyString" } }
+  let(:valid_attributes) { { name: "MyString", price: "6.6", markup: 100, category_id: 1, supplier_id: 1 } }
   let(:valid_session) { {} }
 
   describe "GET index" do
