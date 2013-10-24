@@ -3,7 +3,10 @@ pt:
   cancel: "Cancelar"
   select_file: "Selecione um arquivo"
   menu:
-    products: "Produtos"
+    products:
+      title: "Produtos"
+      new: "Novo produto"
+      edit: "Alterar produtos"
     customers: 
       title: "Clientes"
       new: "Novo cliente"

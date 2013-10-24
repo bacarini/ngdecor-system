@@ -2,7 +2,10 @@ en:
   cancel: "Cancel"
   select_file: "Select file"
   menu:
-    products: "Products"
+    products: 
+      title: "Products"
+      new: "New product"
+      edit: "Edit products"
     customers: 
       title: "Customers"
       new: "New customer"
