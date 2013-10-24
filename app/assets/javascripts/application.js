@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require i18n
+//= require dispatcher
 //= require i18n/translations
 //= require_tree .
 
