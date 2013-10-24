@@ -13,6 +13,10 @@
         1,
         null
       ],
+      "/home/bacarini/ngdecor-system/app/helpers/categories_helper.rb": [
+        1,
+        null
+      ],
       "/home/bacarini/ngdecor-system/app/helpers/customers_helper.rb": [
         1,
         null
@@ -25,7 +29,7 @@
         1,
         null
       ],
-      "/home/bacarini/ngdecor-system/app/controllers/customers_controller.rb": [
+      "/home/bacarini/ngdecor-system/app/controllers/categories_controller.rb": [
         1,
         1,
         null,
@@ -112,11 +116,87 @@
         null,
         1,
         1,
-        34,
+        50,
         null,
         null,
         1,
-        41,
+        64,
+        null,
+        null
+      ],
+      "/home/bacarini/ngdecor-system/app/controllers/customers_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        null,
+        5,
+        5,
+        6,
+        3,
+        null,
+        4,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        5,
+        4,
+        2,
+        null,
+        6,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        4,
+        2,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        9,
+        null,
+        null,
+        null,
+        1,
+        10,
         null,
         null
       ],
@@ -212,6 +292,10 @@
         null,
         null
       ],
+      "/home/bacarini/ngdecor-system/app/models/category.rb": [
+        1,
+        null
+      ],
       "/home/bacarini/ngdecor-system/app/models/customer.rb": [
         1,
         null,
@@ -226,6 +310,6 @@
         null
       ]
     },
-    "timestamp": 1382382323
+    "timestamp": 1382631738
   }
 }
