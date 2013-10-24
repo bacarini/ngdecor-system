@@ -21,4 +21,5 @@ pt:
       new: "Novo usuário"
       edit: "Alterar usuário"
     sales: "Vendas"
+    categories: "Categorias"
     imports: "Importar"

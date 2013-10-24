@@ -20,4 +20,5 @@ en:
       new: "New user"
       edit: "Edit user"
     sales: "Sales"
+    categories: "Categories"
     imports: "Import"
