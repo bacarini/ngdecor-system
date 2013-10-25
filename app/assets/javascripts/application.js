@@ -17,7 +17,3 @@
 //= require dispatcher
 //= require i18n/translations
 //= require_tree .
-
-$(function () {
-    $(":file").filestyle({classButton: "btn btn btn-success", buttonText: I18n.t("select_file")});
-});
