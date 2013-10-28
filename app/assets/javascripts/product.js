@@ -1,6 +1,6 @@
 App.products = {};
 
-App.products["new"] = function() {
+App.products["demo"] = function() {
     $.getJSON( "/categories", function(data){ 
       var listCategory = []
       $.each( data, function( key, val ) { 
