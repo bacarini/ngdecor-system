@@ -1,4 +1,6 @@
 <%= simple_form_for @import, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :supplier, collection: Supplier.all %>
+
   <%= f.file_field :file %>
 
   <div class="form-actions">

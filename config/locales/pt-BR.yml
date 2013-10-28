@@ -1,7 +1,9 @@
 #encoding: UTF-8 
-pt:
+pt-BR:
   cancel: "Cancelar"
   select_file: "Selecione um arquivo"
+  import:
+    success: "Importado com sucesso."
   menu:
     products:
       title: "Produtos"
