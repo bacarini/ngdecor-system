@@ -1,0 +1,23 @@
+#encoding: UTF-8 
+pt-BR:
+  menu:
+    products:
+      title: "Produtos"
+      new: "Novo produto"
+      edit: "Alterar produtos"
+    customers: 
+      title: "Clientes"
+      new: "Novo cliente"
+      edit: "Alterar cliente"
+    suppliers: 
+      title: "Fornecedores"
+      new: "Novo fornecedor"
+      edit: "Alterar fornecedores"
+    salesmen: "Vendedores"
+    users: 
+      title: "Usuários"
+      new: "Novo usuário"
+      edit: "Alterar usuário"
+    sales: "Vendas"
+    categories: "Categorias"
+    imports: "Importar"

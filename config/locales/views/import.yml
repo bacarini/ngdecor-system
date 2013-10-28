@@ -1,0 +1,4 @@
+#encoding: UTF-8 
+pt-BR:
+  select_file: "Selecione um arquivo"
+  success: "Importado com sucesso."

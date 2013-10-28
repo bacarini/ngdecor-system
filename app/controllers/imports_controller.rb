@@ -6,7 +6,7 @@ class ImportsController < ApplicationController
   def create
     @import = Import.new(params[:import])
     if @import.save
-      redirect_to root_url, notice: t("import.success")
+      redirect_to root_url, notice: t(".success")
     else
       render :new
     end
