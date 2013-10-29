@@ -35,7 +35,7 @@
             <a class="dropdown-toggle"  data-toggle="dropdown" href="#"><%= t("menu.users.title") %><b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
                 <li><%= link_to t("menu.users.new"), new_user_path %></li>
-                <li><%= link_to t("menu.users.edit"), method: :update %></li>
+                <li><%= link_to t("menu.users.edit"), users_path %></li>
             </ul>
           </li>
           <li class="menu-span"><%= link_to t("menu.sales") %></li>
