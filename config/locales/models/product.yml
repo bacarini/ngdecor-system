@@ -1,0 +1,14 @@
+#encoding: UTF-8 
+pt-BR:
+  activerecord:
+    models:
+      product: 
+        one: "Produto"
+        other: "Produtos"
+    attributes:
+      product:
+        name: "Nome"
+        price: "Preço"
+        markup: "Lucro"
+        supplier_id: "Fornecedor"
+        category_id: "Categoria"

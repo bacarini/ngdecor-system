@@ -1,9 +1,5 @@
 #encoding: UTF-8 
 pt-BR:
-  attributes:
-    created_at: "Criado em"
-    updated_at: "Alterado em"
- 
   activerecord:
     models:
       customer: 
