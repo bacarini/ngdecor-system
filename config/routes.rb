@@ -5,9 +5,11 @@ NgdecorSystem::Application.routes.draw do
   resources :users
   resources :customers
   resources :imports, only: [:new,:create]
-  resources :products
+  resources :products 
   resources :categories
-  resources :suppliers
+  resources :suppliers do
+    get 'download'
+  end
 
   root "users#index"
 end

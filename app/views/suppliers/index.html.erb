@@ -31,6 +31,7 @@
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-mini btn-danger' %>
+          <%= link_to t("download"), supplier_download_path(supplier.id,format: :xls), class: 'btn btn-mini btn-info' %>
         </td>
       </tr>
     <% end %>

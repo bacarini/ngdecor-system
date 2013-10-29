@@ -7,6 +7,13 @@ class SuppliersController < ApplicationController
     @suppliers = Supplier.all
   end
 
+  def download
+    @products = Supplier.find(params[:supplier_id]).products
+    respond_to do |format|
+      format.xls 
+    end
+  end
+
   # GET /suppliers/1
   # GET /suppliers/1.json
   def show

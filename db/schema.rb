@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131024175559) do
+ActiveRecord::Schema.define(version: 20131029103719) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -37,10 +37,10 @@ ActiveRecord::Schema.define(version: 20131024175559) do
     t.string   "name"
     t.string   "price"
     t.string   "markup"
-    t.string   "category_id"
-    t.string   "supplier_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "supplier_id"
+    t.integer  "category_id"
   end
 
   add_index "products", ["category_id"], name: "index_products_on_category_id", using: :btree
