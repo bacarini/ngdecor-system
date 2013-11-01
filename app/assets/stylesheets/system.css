@@ -12,6 +12,6 @@ header{
   margin-top: 5px;
 }
 .logout{
-  width: 50px;
-  float: right;
+  width: 110%;
+  text-align: right;
 }

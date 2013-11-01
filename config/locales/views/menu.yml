@@ -13,7 +13,10 @@ pt-BR:
       title: "Fornecedores"
       new: "Novo fornecedor"
       edit: "Alterar fornecedores"
-    salesmen: "Vendedores"
+    sellers: 
+      title: "Vendedores"
+      new: "Novo vendedor"
+      edit: "Alterar vendedores"
     users: 
       title: "Usuários"
       new: "Novo usuário"

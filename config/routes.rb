@@ -1,5 +1,7 @@
 NgdecorSystem::Application.routes.draw do
 
+  resources :sellers
+
   devise_for :users
 
   resources :users
