@@ -1,4 +1,6 @@
 <% if user_signed_in? %>
-  <strong><%= current_user.email %></strong>
-  <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+  <div class='logout'>
+    <strong><%= current_user.email %></strong>
+    <%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'btn btn-mini' %>
+  </div>
 <% end %>

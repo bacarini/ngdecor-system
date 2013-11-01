@@ -19,5 +19,8 @@ pt-BR:
       new: "Novo usuário"
       edit: "Alterar usuário"
     sales: "Vendas"
-    categories: "Categorias"
+    categories: 
+      title: "Categorias"
+      new: "Nova categoria"
+      edit: "Alterar categorias"
     imports: "Importar"

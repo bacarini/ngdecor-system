@@ -39,7 +39,13 @@
             </ul>
           </li>
           <li class="menu-span"><%= link_to t("menu.sales") %></li>
-          <li class="menu-span"><%= link_to t("menu.categories") %></li>
+          <li class="dropdown menu-span">
+            <a class="dropdown-toggle"  data-toggle="dropdown" href="#"><%= t("menu.categories.title") %><b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                <li><%= link_to t("menu.categories.new"), new_category_path %></li>
+                <li><%= link_to t("menu.categories.edit"), categories_path %></li>
+            </ul>
+          </li>
           <li class="menu-span"><%= link_to t("menu.imports"), new_import_path %></li>
         </ul>
       </div>

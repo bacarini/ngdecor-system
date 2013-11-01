@@ -1,0 +1,13 @@
+#encoding: UTF-8 
+pt-BR:
+  activerecord:
+    models:
+      supplier: 
+        one: "Fornecedor"
+        other: "Fornecedores"
+    attributes:
+      supplier:
+        name: "Nome"
+        cnpj: "CNPJ"
+        address: "Endereço"
+        phone: "Telefone"
