@@ -8,3 +8,6 @@ App.products["demo"] = function() {
       })
     });
 };
+App.products["new"] = function(){
+ $("#product_price").mask(I18n.t("mask.money"));
+};

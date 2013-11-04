@@ -203,6 +203,14 @@ pt-BR:
       long: ! '%d de %B de %Y, %H:%M'
       short: ! '%d de %B, %H:%M'
     pm: ''
+  mask:
+    date: "11/11/1111"
+    time: "00:00:00"
+    cep: "00000-000"
+    phone: "(00) 0000-0000"
+    cpf: "000.000.000-00"
+    money: "#.##0,00"
+    cnpj: "99.999.999/9999-99"
   attributes:
     created_at: "Criado em"
     updated_at: "Alterado em"
