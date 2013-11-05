@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131101200859) do
+ActiveRecord::Schema.define(version: 20131105150838) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -30,9 +30,11 @@ ActiveRecord::Schema.define(version: 20131101200859) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "architect",  default: false
+    t.string   "cpf"
   end
 
   add_index "customers", ["architect"], name: "index_customers_on_architect", using: :btree
+  add_index "customers", ["cpf"], name: "index_customers_on_cpf", using: :btree
   add_index "customers", ["name"], name: "index_customers_on_name", using: :btree
 
   create_table "products", force: true do |t|
@@ -63,13 +65,14 @@ ActiveRecord::Schema.define(version: 20131101200859) do
 
   create_table "suppliers", force: true do |t|
     t.string   "name"
-    t.integer  "cnpj"
     t.string   "address"
     t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "cnpj"
   end
 
+  add_index "suppliers", ["cnpj"], name: "index_suppliers_on_cnpj", using: :btree
   add_index "suppliers", ["name"], name: "index_suppliers_on_name", using: :btree
 
   create_table "users", force: true do |t|
