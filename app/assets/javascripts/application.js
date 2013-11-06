@@ -16,4 +16,7 @@
 //= require i18n
 //= require dispatcher
 //= require i18n/translations
+//= require jquery/jquery.validate.min.js
+//= require jquery/additional-methods.min.js
+//= require jquery/jquery.mask.min.js
 //= require_tree .

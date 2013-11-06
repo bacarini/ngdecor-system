@@ -26,7 +26,6 @@ class Import
   end
 
   def load_imported_products
-    binding.pry
     spreadsheet = open_spreadsheet
     header = spreadsheet.row(1)
     (2..spreadsheet.last_row).each do |i|
