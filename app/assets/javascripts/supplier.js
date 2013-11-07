@@ -5,7 +5,14 @@ App.suppliers.before = function() {
   $("#supplier_phone").mask(I18n.t("mask.phone"));
 };
 App.suppliers["new"] = function(){
-  $('#new_supplier').validate({
+  validateSuppliers();
+};
+App.suppliers["edit"] = function(){
+  validateSuppliers();
+};
+
+function validateSuppliers(){
+  $('.supplier_validate').validate({
     errorElement: "span",
     errorClass:'help-inline',
     highlight: function(label) {    
