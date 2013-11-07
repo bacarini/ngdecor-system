@@ -11,6 +11,9 @@ header{
   right:0;
   margin-top: 5px;
 }
+.beforeElement{
+  display: block !important ;
+}
 .logout{
   width: 110%;
   text-align: right;

@@ -99,6 +99,8 @@ pt-BR:
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
+      cnpj_invalid: O CNPJ digitado é invalido
+      cpf_invalid: O CPF digitado é invalido
       accepted: deve ser aceito
       blank: não pode ficar em branco
       present: deve ficar em branco
