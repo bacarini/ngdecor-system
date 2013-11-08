@@ -32,7 +32,10 @@ function validateSuppliers(){
     },
     rules:{
       'supplier[cnpj]': {
-        cnpj     : 'both'
+        cnpj  : true
+      },
+      'supplier[phone]': {
+        phone : true
       }
     },
     messages:{
@@ -42,6 +45,9 @@ function validateSuppliers(){
       },
       'supplier[name]': {
         required : I18n.t("errors.messages.blank")
+      },
+      'supplier[phone]': {
+        phone : I18n.t("errors.messages.phone_invalid")
       }
     } 
   });

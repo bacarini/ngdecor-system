@@ -87,32 +87,28 @@ function isCpfFormatted(cpf) {
   var validCPF = /^\d{3}\.\d{3}\.\d{3}\-\d{2}$/;
   return cpf.match(validCPF);
 }
+function isPhone(phone) {
+  if(phone=="") {
+    return false;
+  }
+  var exp = /\(\d{2}\)\ \d{4,5}\-\d{4}$/;      
+  return phone.match(exp);
 
+}
 (function($) {
-  $.validator.addMethod("cpf", function(value, element, type) {
-    if (value == "")
-    return true;
-
-  if ((type == 'format' || type == 'both') && !isCpfFormatted(value))
-    return false;
-  else
-    return ((type == 'valid' || type == 'both')) ? isCpf(value) : true;
-
-  }, function(type,element) {
-    return (type == 'format' || (type == 'both' && !isCpfFormatted($(element).val()))) ?
-    'Formato do CPF não é válido' : 'Por favor digite um CPF válido';
+  $.validator.addMethod("cpf", function(value, element) {
+    if (!isCpfFormatted(value))
+      return false;
+    else
+      return isCpf(value); 
   });
-  $.validator.addMethod("cnpj", function(value, element, type) {
-    if (value == "")
-    return true;
-
-  if ((type == 'format' || type == 'both') && !isCnpjFormatted(value))
-    return false;
-  else
-    return ((type == 'valid' || type == 'both')) ? isCnpj(value) : true;
-
-  }, function(type,element) {
-    return (type == 'format' || (type == 'both' && !isCnpjFormatted($(element).val()))) ?
-    'Formato do CNPJ não é válido' : 'Por favor digite um CNPJ válido';
+  $.validator.addMethod("cnpj", function(value, element) {
+    if (!isCnpjFormatted(value))
+      return false;
+    else
+      return isCnpj(value);
+  });
+  $.validator.addMethod("phone", function(value, element){
+    return isPhone(value); 
   });
 })(jQuery);

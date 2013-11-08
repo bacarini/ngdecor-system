@@ -32,10 +32,13 @@ function validateSellers(){
     },
     rules:{
       'seller[cnpj]': {
-        cnpj     : 'both'
+        cnpj  : true
       },
       'seller[email]':{
-        email: true
+        email : true
+      },
+      'seller[phone]': {
+        phone : true
       }
     },
     messages:{
@@ -47,7 +50,10 @@ function validateSellers(){
         required : I18n.t("errors.messages.blank")
       },
       'seller[email]':{
-        email: "Email inválido"
+        email    : I18n.t("errors.messages.email_invalid")
+      },
+      'seller[phone]': {
+        phone : I18n.t("errors.messages.phone_invalid")
       }
     } 
   });
